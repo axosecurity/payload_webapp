@@ -1,0 +1,42 @@
+
+WEB APP PENTESTING NOT
+
+
+
+ACTIVE-RECON
+
+knockpy ("FOR SUBDOMAIN FInding")
+
+dirb ("FOR DIRECTORY bruthforce")
+
+gobuster ("BEST DIRECTORY Bruthforceing")
+
+1. BASIC RECON WITH WHOIS LOOKUP
+ https://whois.domaintools.com/
+2. DISCOVERING TECHNOLOGIES USED ON WEBSITE YOU ARE PERFORMING RECON
+         https://sitereport.netcraft.com/
+3. GATHERING DNS INFORMATION
+         https://www.robotex.com/
+4. FINDING DIFFERENT DOMAINS ON SAME SERVER(REVERSE DNS)
+     a.    https://www.robtex.com/
+           BING ip:192.xxxx.xx.xxx or you can use google.
+5. DISCOVERING SUB DOMAINS 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

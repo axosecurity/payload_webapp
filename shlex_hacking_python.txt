@@ -1,0 +1,61 @@
+
+#SHLEX IS A MOUDLE OF PYHON THAT HELP PROGRAMER FOR DEFENDING PROGRAMRE FOR HACKER OS CODE EXECUTION
+
+# IT WILL BE HACKED
+
+import os
+
+import shlex
+
+print("LEST EXECUTE OS COMAND USEING PYTHON")
+
+print("COMAND THAT WILL RUN \n traceroute -I $IP ")
+ip =input("Enter IP\n")a
+
+comand = os.system("sudo traceroute -I " + ip )
+
+print(comand)
+
+# IT WONT BE HACKED
+
+mport os
+
+import shlex
+
+print("LEST EXECUTE OS COMAND USEING PYTHON")
+
+
+print("COMAND THAT WILL RUN \n traceroute -I $IP ")
+
+ip =shlex.quote(input("Enter IP\n"))
+
+comand = os.system("sudo traceroute -I " + ip )
+
+print(comand)
+
+CAUSE=== shlex.quote will make this a string and no caracter cant start new comand !!!
+
+mport os
+
+import shlex
+
+print("LEST EXECUTE OS COMAND USEING PYTHON")
+print("COMAND THAT WILL RUN \n traceroute -I $IP ")
+ip =shlex.split(input("Enter IP\n"))
+print(ip)
+comand = os.system("sudo traceroute -I " + ip )
+print(comand)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
